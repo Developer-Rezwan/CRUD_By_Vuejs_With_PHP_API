@@ -1,0 +1,175 @@
+body{
+	font: arial;
+}
+
+.container{
+	max-width: 80%;
+	margin: auto;
+}
+
+/***** Data Table Design ********/
+h1{
+	text-align: center;
+	color : limegreen;
+}
+
+span button{
+    float: right;
+    margin-bottom: 8px;
+    padding: 8px;
+    background: #26d072;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+}
+
+thead th{
+	border: 2px solid #cccccc;
+	padding: 8px;
+	background: #77f9a5;
+	font-size: 18px;
+}
+
+tr td{
+	border: 1px solid #cccccc;
+	padding: 4px;
+	font-size: 17px;
+}
+
+#view{
+	padding: 5px;
+    color: white;
+    background: #217ff5;
+    border: none;
+    border-radius: 5px;
+}
+#edit{
+	padding: 5px;
+    color: white;
+    background: green;
+    border: none;
+    border-radius: 5px;
+}
+#delete{
+	padding: 5px;
+    color: white;
+    background: red;
+    border: none;
+    border-radius: 5px;
+}
+
+/**** Model design *****/
+.modal{
+    background: rgba(0,0,0,0.4);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    overflow: auto;
+    transition: opacity .5s;
+
+}
+
+.modal-body{
+    padding: 20px;
+    background: #fefefe;
+    margin: auto;
+    width: 50%;
+    margin-top: 150px;
+    border-radius: 5px;
+}
+
+.float-right{
+    float: right;
+}
+
+.modal-header{
+    font-size: 30px;
+    color: #12cc12;
+}
+
+.modal-content{
+    margin: auto;
+    width: 80%;
+}
+
+.form-control{
+    padding: 8px;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #cec8c9;
+    border-radius: 10px;
+}
+
+label{
+    font-family: arial;
+    font-style:bold;
+}
+
+.form-group{
+    border:1px solid #cec8c9;
+    padding: 10px;
+    border-radius: 5px ;
+    padding-left: 10px;
+}
+
+input.submit-button {
+    margin-left: 80%;
+    background: lime;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.alert-success{
+    padding: 11px;
+    border: none;
+    margin: auto;
+    max-width: 30%;
+    margin-bottom: 4px;
+    background: #34d87d;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.alert-danger {
+    padding: 11px;
+    border: none;
+    margin: auto;
+    max-width: 30%;
+    margin-bottom: 4px;
+    background: red;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.closer{
+    float: right;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 18px;
+    margin: -28px -18px 0px 0px;
+    color: tomato;
+    border: 1px solid #f9f9f9;
+    background: #fffdfd;
+    border-radius: 60px;
+}
